@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+</head>
+<style>
+    body{
+    
+        background-color:lightblue;
+        color: black;
+        background-color: lightblue;
+  width: 300px;
+  border: 10px solid green;
+  padding: 50px;
+  margin: 10px;
+  border-radius: 25px;
+       
+    }
+    .one{
+        text-align: center;
+        color: blueviolet;
+        border-style: dotted;
+        border-color: green;
+    }
+    button{
+        background-color: aqua;
+        border-radius: 5px;
+    }
+    .three{
+        text-shadow: 5px;
+    }
+   
+</style>
+<h1 class="three">Guess The Guess!!!</h1>
+<body>
+    <h1 class="one">Guess the number from 1 to 5</h1>
+    <input type class=""="text" placeholder="Enter the number" id="inputbox">
+ 
+    <button id="btn" onclick="checkthenumber()">Check</button>
+
+<div class="two">
+    <p id="result">Your are right/wrong</p>
+    <p id="guesscount">Available guesses:3</p>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
